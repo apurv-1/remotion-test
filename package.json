@@ -4,7 +4,8 @@
   "description": "Hybtra intro video built with Remotion",
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render HybtraIntro out/hybtra-intro.mp4",
+    "build": "remotion bundle --public-dir=public",
+    "render": "remotion render HybtraIntro out/hybtra-intro.mp4",
     "upgrade": "remotion upgrade"
   },
   "keywords": [
