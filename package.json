@@ -1,0 +1,28 @@
+{
+  "name": "hybtra-intro-video",
+  "version": "1.0.0",
+  "description": "Hybtra intro video built with Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render HybtraIntro out/hybtra-intro.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "keywords": [
+    "remotion",
+    "video",
+    "hybtra"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "^4.0.408",
+    "@remotion/media-utils": "^4.0.408",
+    "@remotion/player": "^4.0.408",
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.408",
+    "typescript": "^5.9.3"
+  }
+}
